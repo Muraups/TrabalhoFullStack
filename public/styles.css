@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4A90E2; /* Azul de fundo */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #FFFFFF;
+    padding: 20px;
+    border-radius: 15px; /* Bordas arredondadas */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border-radius: 5px; /* Bordas arredondadas */
+    border: 1px solid #B0C4DE; /* Borda azul clara */
+}
+
+button {
+    padding: 10px 20px;
+    background: #007BFF; /* Azul mais escuro */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button:hover {
+    background: #0056b3; /* Azul mais escuro ao passar o mouse */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 2px; /* Bordas arredondadas na tabela */
+    overflow: hidden;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #1E90FF; /* Azul mais forte no cabeçalho */
+    color: white;
+    border-radius: 8px;
+}
+
+td {
+    background-color: #F0F8FF; /* Azul claro nas células */
+    border-radius: 8px;
+}
